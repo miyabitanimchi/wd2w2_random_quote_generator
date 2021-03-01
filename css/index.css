@@ -1,0 +1,105 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-image: url(../img/sky.jpeg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+h1 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+  font-size: 3.5rem;
+  margin-top: 7rem;
+  margin-bottom: 3rem;
+}
+
+#btnAndFltContainer {
+  text-align: center;
+}
+
+#btnAndFltContainer button {
+  cursor: pointer;
+  font-size: 18px;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  margin-right: 2rem;
+  background: #ff4d88;
+  color: #fff;
+  padding: 7px;
+}
+
+#btnAndFltContainer button:hover {
+  -webkit-transition: .3S;
+  transition: .3S;
+  background: #ff1a66;
+}
+
+#btnAndFltContainer #filter {
+  cursor: pointer;
+  margin-left: 2rem;
+  font-size: 15px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+#quoteContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.2);
+  height: 200px;
+  width: 400px;
+  margin: auto;
+  border-radius: 20px;
+  margin-top: 5rem;
+}
+
+#quoteContainer #quoteMark {
+  position: absolute;
+  font-size: 1.4rem;
+  top: 2%;
+  left: 3%;
+  color: #fff;
+}
+
+#quoteContainer #fadeInContainer {
+  opacity: 0;
+}
+
+#quoteContainer #fadeInContainer #quoteHere {
+  position: absolute;
+  width: 90%;
+  margin-right: 5px;
+  margin-left: 5px;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateY(-55%) translateX(-51%);
+          transform: translateY(-55%) translateX(-51%);
+  color: #fff;
+  font-style: italic;
+  font-size: 2.1rem;
+  text-align: justify;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#quoteContainer #fadeInContainer #nameHere {
+  position: absolute;
+  bottom: 2%;
+  right: 3%;
+  color: #fff;
+  font-size: 1.6rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/*# sourceMappingURL=index.css.map */
