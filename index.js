@@ -57,10 +57,11 @@ window.onload = () => {
 
 // create an empty array
 let newArry = [];
+const filter = document.getElementById("filter");
 
 //function to areate a filter
-document.getElementById("filter").addEventListener("change", () => {
-    const valInOption = document.getElementById("filter").value;
+filter.addEventListener("change", () => {
+    const valInOption = filter.value;
     
     if(valInOption === "allQuotes") {
         newArry = allQuotes;

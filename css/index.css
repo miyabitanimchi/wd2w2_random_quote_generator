@@ -16,7 +16,7 @@ h1 {
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
   color: #fff;
-  font-size: 3.5rem;
+  font-size: 3.4rem;
   margin-top: 7rem;
   margin-bottom: 3rem;
 }
@@ -31,7 +31,7 @@ h1 {
   border-radius: 5px;
   letter-spacing: 1px;
   margin-right: 2rem;
-  background: #ff4d88;
+  background: #ff6699;
   color: #fff;
   padding: 7px;
 }
@@ -39,7 +39,7 @@ h1 {
 #btnAndFltContainer button:hover {
   -webkit-transition: .3S;
   transition: .3S;
-  background: #ff1a66;
+  background: #ff3377;
 }
 
 #btnAndFltContainer #filter {
